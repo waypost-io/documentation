@@ -45,9 +45,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'quickstart',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           {
             href: 'https://github.com/waypost-io',
@@ -63,9 +63,17 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Quickstart',
+                to: '/docs/quickstart',
               },
+              {
+                label: 'About',
+                to: '/docs/introduction',
+              },
+              {
+                label: 'SDKs',
+                to: '/docs/sdk/overview',
+              }
             ],
           },
           {
