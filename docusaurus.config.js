@@ -40,7 +40,8 @@ const config = {
         title: 'Waypost',
         logo: {
           alt: 'Waypost Logo',
-          src: 'img/Waypost_graphic_on_dark.svg',
+          src: 'img/Waypost_graphic_color.svg',
+          srcDark: 'img/Waypost_logo_color.svg',
         },
         items: [
           {
