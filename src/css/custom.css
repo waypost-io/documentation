@@ -2,7 +2,47 @@
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
- */
+
+/* orbitron-regular - latin */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../static/fonts/orbitron-v23-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../../static/fonts/orbitron-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../static/fonts/orbitron-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../static/fonts/orbitron-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../../static/fonts/orbitron-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../static/fonts/orbitron-v23-latin-regular.svg#Orbitron') format('svg'); /* Legacy iOS */
+}
+/* orbitron-700 - latin */
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../static/fonts/orbitron-v23-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../../static/fonts/orbitron-v23-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../static/fonts/orbitron-v23-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../static/fonts/orbitron-v23-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../../static/fonts/orbitron-v23-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../static/fonts/orbitron-v23-latin-700.svg#Orbitron') format('svg'); /* Legacy iOS */
+}
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../static/fonts/montserrat-v23-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../../static/fonts/montserrat-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../static/fonts/montserrat-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../static/fonts/montserrat-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../../static/fonts/montserrat-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../../static/fonts/montserrat-v23-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
 
 /* You can override the default Infima variables here. */
 :root {
@@ -14,6 +54,8 @@
   --ifm-color-primary-lighter: #c46aac;
   --ifm-color-primary-lightest: #cf87bc;
   --ifm-code-font-size: 95%;
+  --ifm-heading-font-family: 'Orbitron', 'sans-serif';
+  --ifm-font-family-base: 'Montserrat', 'sans-serif';
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */

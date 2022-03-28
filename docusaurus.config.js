@@ -47,8 +47,8 @@ const config = {
           {
             type: 'doc',
             docId: 'quickstart',
-            position: 'left',
-            label: 'Documentation',
+            position: 'right',
+            label: 'Docs',
           },
           {
             href: 'https://github.com/waypost-io',
