@@ -54,8 +54,10 @@
   --ifm-color-primary-lighter: #c46aac;
   --ifm-color-primary-lightest: #cf87bc;
   --ifm-code-font-size: 95%;
-  --ifm-heading-font-family: 'Orbitron', 'sans-serif';
+  /* --ifm-heading-font-family: 'Orbitron', 'sans-serif'; */
   --ifm-font-family-base: 'Montserrat', 'sans-serif';
+  --ifm-menu-color: #F5F8FC;
+  --ifm-menu-color-active: #cf87bc;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -78,4 +80,20 @@
 
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__title {
+  font-family: 'Orbitron', 'Montserrat', sans-serif;
+}
+
+.theme-doc-sidebar-container {
+  background-color: #20232B;
+}
+
+.container {
+  padding: 50px;
+}
+
+.menu__link {
+  font-weight: bold;
 }
