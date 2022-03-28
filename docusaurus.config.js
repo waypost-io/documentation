@@ -90,7 +90,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Waypost. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: require('prism-react-renderer/themes/shadesOfPurple'),
         darkTheme: darkCodeTheme,
       },
     }),

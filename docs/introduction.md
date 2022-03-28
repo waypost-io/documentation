@@ -5,9 +5,9 @@ sidebar_position: 2
 
 ## Why Use Waypost?
 
-Waypost is an open-source, lightweight, self-hosted feature flag management system that specializes in A/B Testing, providing analytical insights for your experiments on both the front-end and back-end.
+Waypost is an open-source, lightweight, self-hosted **feature flag** management system that specializes in **A/B Testing**, providing analytical insights for your experiments on both the front-end and back-end.
 
-It is possible to build your own feature flagging system and A/B testing platform, but it’s extremely time-consuming and many companies do not have the resources to do that. Some companies opt to use existing and prominent products such as LaunchDarkly and Optimizely. However, they have their own downsides to consider, such as high costs and loss of ownership over your data.  That’s why we made Waypost. It’s free to use and self-hosted so your data never leaves your hands!
+It is possible to build your own feature flagging system and A/B testing platform, but it’s extremely time-consuming and many companies do not have the resources to do that. Some companies opt to use existing and prominent products such as LaunchDarkly and Optimizely. However, they have their own downsides to consider, such as high costs and loss of ownership over your data.  That’s why we made **Waypost**. It’s **free** to use and **self-hosted** so your data never leaves your hands!
 
 ## How does Waypost work?
 
