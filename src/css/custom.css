@@ -58,6 +58,7 @@
   --ifm-font-family-base: 'Montserrat', 'sans-serif';
   --ifm-menu-color: #F5F8FC;
   --ifm-menu-color-active: #cf87bc;
+  --ifm-menu-link-sublist-icon-filter: invert(100%) sepia(94%) saturate(17%) hue-rotate(223deg) brightness(104%) contrast(98%);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -96,4 +97,8 @@
 
 .menu__link {
   font-weight: bold;
+}
+
+.theme-edit-this-page {
+  display: none;
 }
