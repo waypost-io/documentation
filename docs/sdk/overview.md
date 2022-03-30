@@ -3,6 +3,8 @@ sidebar_position: 1
 ---
 # SDK Keys
 
-We use an SDK Key on requests from the SDK to the flag provider service in order to verify that the request is coming from the SDK and not another party. Therefore, you will need to embed your SDK key when you instantiate the SDK client on your app. It is recommended to keep the key as an environment variable rather than hardcoding it in your app for increased security.
+An SDK Key is used on requests from the SDK to the Flag Provider service in order to verify that the request is coming from the SDK and not another party. Therefore, you will need to embed your SDK key when you instantiate the SDK client on your app. For increased security, it is recommended to keep the key as an environment variable rather than hard-coding it into your app.
 
-To find your key, simply navigate to the “SDK Key” page via the left sidebar. There will be a button you can click to generate an SDK Key. If you already have one, you can generate a new one at any time, but remember to update your environment variable with the new key since the old ones will no longer work.
+To find your key, simply navigate to the *SDK Key* page via the left sidebar of Waypost-UI. If there’s already an existing key, you can view and copy it from this page to place in your application. If you don’t have one or want to generate a new one, click “Generate a new key”.
+
+Warning: generating a new key will make existing keys no longer valid, so be sure to replace the existing key in your application’s environment variable.

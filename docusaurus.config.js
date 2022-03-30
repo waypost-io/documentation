@@ -47,8 +47,8 @@ const config = {
           {
             type: 'doc',
             docId: 'quickstart',
-            position: 'left',
-            label: 'Documentation',
+            position: 'right',
+            label: 'Docs',
           },
           {
             href: 'https://github.com/waypost-io',
@@ -90,7 +90,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Waypost. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
+        theme: require('prism-react-renderer/themes/shadesOfPurple'),
         darkTheme: darkCodeTheme,
       },
     }),
