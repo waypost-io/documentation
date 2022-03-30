@@ -15,6 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'waypost-io', // Usually your GitHub org/user name.
   projectName: 'waypost-documentation', // Usually your repo name.
+  trailingSlash: false,
 
   presets: [
     [
