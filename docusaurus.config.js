@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Waypost',
   tagline: 'A/B Testing and Feature Flagging',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://waypost-io.github.io',
+  baseUrl: '/documentation/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'waypost-io', // Usually your GitHub org/user name.
-  projectName: 'waypost', // Usually your repo name.
+  projectName: 'waypost-documentation', // Usually your repo name.
 
   presets: [
     [
@@ -45,10 +45,17 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'quickstart',
-            position: 'right',
             label: 'Docs',
+            to: '/',
+            position: 'left',
+            // items: [
+            //   {to: '/docs/quickstart', label: 'Quickstart', position: 'left'},
+            //   {to: '/docs/introduction', label: 'About', position: 'left'},
+            //   {to: '/docs/installation', label: 'Installation', position: 'left'},
+            //   {to: '/docs/flag-management/managing-flags', label: 'Feature Flags', position: 'left'},
+            //   {to: '/docs/sdk/overview', label: 'SDK', position: 'left'},
+            //   {to: '/docs/experimentation/experimentation_guidelines', label: 'Experimentation', position: 'left'}
+            // ]
           },
           {
             href: 'https://github.com/waypost-io',
@@ -94,6 +101,22 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+    presets: [
+      [
+        '@docusaurus/preset-classic',
+        {
+          docs: {
+            path: './docs',
+            routeBasePath: '/',
+            sidebarPath: require.resolve('./sidebars.js'),
+          },
+          blog: false,
+          theme: {
+            customCss: require.resolve('./src/css/custom.css'),
+          },
+        },
+      ],
+    ],
 };
 
 module.exports = config;

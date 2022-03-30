@@ -59,6 +59,7 @@
   --ifm-menu-color: #F5F8FC;
   --ifm-menu-color-active: #cf87bc;
   --ifm-menu-link-sublist-icon-filter: invert(100%) sepia(94%) saturate(17%) hue-rotate(223deg) brightness(104%) contrast(98%);
+  --ifm-navbar-height: 4rem;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -83,8 +84,24 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.navbar__title {
+.navbar__brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  height: 3.5rem;
+}
+
+.navbar__title, .navbar__link--active {
   font-family: 'Orbitron', 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.navbar__link--active {
+  color: var(--ifm-navbar-link-color);
 }
 
 .theme-doc-sidebar-container {
