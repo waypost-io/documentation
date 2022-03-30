@@ -48,14 +48,6 @@ const config = {
             label: 'Docs',
             to: '/',
             position: 'left',
-            // items: [
-            //   {to: '/docs/quickstart', label: 'Quickstart', position: 'left'},
-            //   {to: '/docs/introduction', label: 'About', position: 'left'},
-            //   {to: '/docs/installation', label: 'Installation', position: 'left'},
-            //   {to: '/docs/flag-management/managing-flags', label: 'Feature Flags', position: 'left'},
-            //   {to: '/docs/sdk/overview', label: 'SDK', position: 'left'},
-            //   {to: '/docs/experimentation/experimentation_guidelines', label: 'Experimentation', position: 'left'}
-            // ]
           },
           {
             href: 'https://github.com/waypost-io',
@@ -66,34 +58,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Quickstart',
-                to: '/docs/quickstart',
-              },
-              {
-                label: 'About',
-                to: '/docs/introduction',
-              },
-              {
-                label: 'SDKs',
-                to: '/docs/sdk/overview',
-              }
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/waypost-io',
-              },
-            ],
-          },
-        ],
+        links: [],
         copyright: `Copyright © ${new Date().getFullYear()} Waypost. Built with Docusaurus.`,
       },
       prism: {
