@@ -11,3 +11,5 @@ When you create an experiment, you will be asked what metrics you want to measur
 - **Count** - a continuous metric, measures a count of a specific event. This means each unit in the experiment (e.g. user or session) will have a value associated for the event. Examples of this include number of items purchased, number of pages visited, number of ad clicks, etc.
 
 You will also be asked to provide a query for each metric — please see the [Experiment Data Source](data_source) page for more information on this.
+
+![Creating a Metric](../../static/img/ui/create-metric.gif)

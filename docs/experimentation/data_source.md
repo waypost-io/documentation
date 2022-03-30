@@ -34,3 +34,5 @@ Once you have queries that can return data in the requested format, you can conn
 1. Create a username and password for Waypost to access your database.
 2. Go to the Waypost-UI and the button on the top-right corner which should say “Not Connected” if you haven’t established a connection to the Events DB. Fill out the form with the new account info for Waypost, with the query Waypost’s back-end can use to retrieve user assignments in experiments.
 3. Upon submission,  the credentials will be tested to verify the connection and query return the required fields. You will receive an alert if any field is not correct.
+
+![Connecting to DB](../../static/img/ui/db-connection.gif)
