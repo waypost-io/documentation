@@ -7,4 +7,6 @@ An SDK Key is used on requests from the SDK to the Flag Provider service in orde
 
 To find your key, simply navigate to the *SDK Key* page via the left sidebar of Waypost-UI. If there’s already an existing key, you can view and copy it from this page to place in your application. If you don’t have one or want to generate a new one, click “Generate a new key”.
 
+![SDK Key](../../static/img/ui/sdk_key.jpg)
+
 Warning: generating a new key will make existing keys no longer valid, so be sure to replace the existing key in your application’s environment variable.
